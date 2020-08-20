@@ -1,0 +1,22 @@
+{
+    "nareshit":[
+        {
+            "id":1,
+            "name":"John"
+        },
+        {
+            "id":2,
+            "name":"Aakash"
+        }
+    ],
+    "developer":[
+        {
+            "id":1,
+            "name":"John"
+        },
+        {
+            "id":2,
+            "name":"Aakash"
+        }
+    ]
+}

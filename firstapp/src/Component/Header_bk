@@ -1,0 +1,45 @@
+import React from 'react';
+
+const mystyles= {
+    header:{
+        backgroundColor:'tomato'
+    },
+    logo:{
+        textAlign:'center',
+        color:'#fff',
+        fontSize:'30px'
+    }
+}
+
+const Header = ( ) => {
+    return(
+        <header style={mystyles.header}>
+            <div style={mystyles.logo}>React APP</div>
+            <center>
+               <input type="text"/>
+            </center>
+            <hr/>
+        </header>
+        
+    )
+}
+
+export default Header
+
+/*
+var React = require('react');
+
+
+function Header(){
+    return(
+        <React.Fragment>
+            <center>
+                <h1>NareshIt</h1>
+            </center>
+            <hr/>
+        </React.Fragment>
+        
+    )
+}
+module.exports = Header
+*/

@@ -1,0 +1,111 @@
+/*========================
+        Banner
+========================*/
+.banner .main_cover{
+    background-image: url('../images/cover.png');
+    height:450px;
+    background-size:cover;
+    background-position: center center;
+    position: relative;
+}
+
+.banner .logo{
+    position: absolute;
+    top:50%;
+    left: 0%;
+    width:100%;
+    height:60px;
+    color:#fff;
+    font-size:40px;
+    text-align: center;
+}
+
+.banner span{
+    display: block;
+    height: 20px;
+    background:skyblue;
+}
+
+/*=====================
+        Artists List
+=======================*/
+
+.artist_list{
+  box-sizing: border-box;
+  padding: 10px 30px;  
+}
+
+.artist_list .artist_item{
+    display: block;
+    height: 300px;
+    background-size: cover !important;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.artist_list .artist_item div{
+    background:blueviolet;
+    color:#fff;
+    position: absolute;
+    bottom:0;
+    padding: 10px;
+}
+
+.artist_list h4 {
+    text-align: center;
+    font-size:30px;
+    font-weight: 100;
+    margin: 20px 0px
+}
+/*=====================
+        Header
+=======================*/
+header{
+    text-align: center;
+    font-size:30px;
+    border-bottom:1px soild skyblue;
+    color:white;
+    background: lightblue
+
+}
+
+/*======
+Albums
+*======*/
+
+/**** Artist Bio ****/
+
+.artist_bio{
+    box-sizing: border-box;
+    padding:10px 30px;
+}
+
+.artist_bio .artist_image span{
+    width:130px;
+    height:130px;
+    display: block;
+    background-size: cover !important;
+    margin: 0 auto;
+}
+
+.artist_bio h3{
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+.artist_bio .bio_text{
+    font-weight:100;
+    font-size:14px;
+    color:#3a3a3a;
+}
+
+.album_list{
+    margin:20px;
+}
+.album_list > img{
+    float:left;
+    width:40%;
+    margin:10px;
+}

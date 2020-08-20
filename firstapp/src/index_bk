@@ -1,0 +1,19 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Header from './Component/Header';
+import Footer from './Component/Footer';
+
+const App = () => {
+    return(
+        <React.Fragment>
+            <Header/>
+            <h1>React with Nareshit</h1>
+            <h2>Developed by DeveloperFunnel</h2>
+            <a href=""/>
+            <img src=""/>
+            <Footer year="2022" month="July"/>
+        </React.Fragment>
+    )
+}
+
+ReactDOM.render(<App/>,document.getElementById('root'))

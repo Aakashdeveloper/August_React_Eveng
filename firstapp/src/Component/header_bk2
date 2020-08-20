@@ -1,0 +1,42 @@
+import React,{Component} from 'react';
+import './Header.css';
+
+class Header extends Component{
+    constructor(){
+       super() 
+
+       this.state={
+        title:'My React APP',
+        count:0,
+        keyword:'User Text Here'
+       }
+    }
+
+    onButtonClick = (event) => {
+        this.setState({count:this.state.count+1})
+    }
+    inputChange =(event)=>{
+        this.setState({keyword:event.target.value?event.target.value:'User Text Here'})
+    }
+
+    render(){
+        console.log("inside render")
+        return(
+            <header>
+                <div className="logo">{this.state.title}</div>
+                <center>
+                   <input type="text" onChange={this.inputChange}/>
+                   <p>{this.state.keyword}</p>
+                   <p>Counter: {this.state.count}</p>
+                   <button onClick={this.onButtonClick}>
+                       Click
+                   </button>
+                </center>
+                <hr/>
+            </header>
+            
+        )
+    }
+}
+
+export default Header

@@ -1,0 +1,206 @@
+////////////////////////
+Basic JavaScript
+Npm
+
+React = 3
+React_hooks -1
+React-Redux =2
+////////////////////
+React-Saga -1
+React-GarphQL 1
+React-JWT(Login Logut)-1
+Basic React Native=1
+----------------------
+Testing
+
+Depolyment
+-> MERN
+-> Docker
+-> Nginx
+
+Mock API
+json-server
+
+Github
+
+--------NOT--------------
+API
+GarphQL
+Login/Logout
+
+//////////
+package.json
+> Starting point
+> Packages
+> meta data
+> script 
+
+json> JavaScript Object Notation
+[
+    {
+        id:1,
+        name:'John'
+    },
+    {
+        id:2,
+        name:'Alvin'
+    }
+]
+
+///////////
+Step to create package.json
+/////////
+** NodeJs must be installed
+> naviagate to the folder using cmd/termianl
+> npm init
+> Answer all question
+> Type 'yes'
+
+
+//////////
+installed npm package
+/////
+> localpackage
+> Are local to the folder, there scope is inside the folder where its is installed
+> naviagate to the folder using cmd/termianl
+> npm i packagename/   npm install packagename
+----------------------------------------------------------------
+> globalpackage
+> Are Local to the system and can be used in any application
+> Only package that help to run or setup the application
+> We need admin access to install global package
+> Will not add in package.json
+> no need to go inside any folder
+
+//Window
+> open cmd as admin
+> npm i -g create-react-app
+
+//MAc/linux
+> open termianl
+> sudo npm i -g create-react-app 
+
+////
+When we get application from any where
+////
+> npm i 
+
+
+//////////////////////////////
+Setup React app
+//////////////////////////////
+//Window
+
+//First and only one time in one system
+> open cmd as admin
+> npm i -g create-react-app
+
+//Every next time you want to generate app
+> go inside folder where you want to generate using cmd
+> create-react-app appname
+------------------------------------------------
+#MAc/Linux
+
+//First and only one time in one system
+> open terminal
+> sudo npm i -g create-react-app
+
+//Every next time you want to generate app
+> go inside folder where you want to generate using cmd
+> create-react-app appname
+
+
+///////////////////////////////////////
+Component
+/////////////////////////////////
+Functional               ClassBase
+---------------------------------------
+Dumb Component           Logical Component
+light in weight          Heavy as compare to Functional
+display
+cannot maintain state    We can maintain state
+We cannot call API       We can call API
+
+We cannot manage         We can manage lifecycle
+lifecycle                 
+
+
+//////////////////////////////////////////////////////
+State&Props
+///////////////////////////
+state> act like local variable
+props> help to transfer state
+
+map in javascript
+filter
+indexof
+
+
+function add(a,b){
+    return a+b
+}
+
+add(1,2)
+
+npm i react-router-dom
+
+
+////
+mockApi
+///////
+JSON-server
+npm i -g json-server
+
+json-server --watch db.json --port 8900
+
+
+/////////////rendering/mounting///////////////
+
+constructor
+static getDerivedStateFromProps()
+render()
+componentDidMount()
+
+
+/////////////Update///////////////
+static getDerivedStateFromProps()
+shoudComponentUpdate()
+render()
+getSnapshotBeforUpdate()
+componentDidUpdate()
+
+
+////Unmounting///
+ComponentWillUnmount()
+
+
+////Why Redux//////
+State Mangement
+Passing data to non nested Component
+structure of application
+Scalability of application
+
+View  >>> we can call action
+ |
+ \/
+Action  >>>> Api Calling (type,payload)
+  |
+ \/
+Reducer >>>> State Managment 
+  |
+ \/
+store  >>>>> Save state
+  |
+ \/
+View  >>> Will recive new state from store'
+
+
+npm i redux react-react
+
+npm i redux react-redux react-slick redux-logger redux-promise enzyme-adapter-react-16 react-addons-test-utils react-test-renderer
+
+
+var a = [23,43,35,36,12,38]
+undefined
+console.log(...a)
+VM130:1 23 43 35 36 12 38
