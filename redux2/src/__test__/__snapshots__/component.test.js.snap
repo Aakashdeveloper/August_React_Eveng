@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot test Testing footer 1`] = `
+<header>
+  <div>
+    <p>
+      © DeveloperFunnel
+    </p>
+  </div>
+</header>
+`;
