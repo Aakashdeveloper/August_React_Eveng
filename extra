@@ -7,8 +7,8 @@ React_hooks -1
 React-Redux =2
 React-JWT(Login Logut)-1
 ////////////////////
-React-Saga -1
 React-GarphQL 1
+React-Saga -1
 Basic React Native=1
 ----------------------
 Testing
@@ -17,6 +17,7 @@ Depolyment
 -> MERN
 -> Docker
 -> Nginx
+-> Heroku
 
 Mock API
 json-server
