@@ -6,8 +6,11 @@ React = 3
 React_hooks -1
 React-Redux =2
 React-JWT(Login Logut)-1
-////////////////////
 React-GarphQL 1
+Mock API
+json-server
+Github
+////////////////////
 React-Saga -1
 Basic React Native=1
 ----------------------
@@ -19,10 +22,6 @@ Depolyment
 -> Nginx
 -> Heroku
 
-Mock API
-json-server
-
-Github
 
 --------NOT--------------
 API
@@ -224,3 +223,14 @@ VM130:1 23 43 35 36 12 38
 (GET) => http://localhost:5000/api/auth/userinfo
 (Header) => {'x-access-token':'token value from login'}
 (response) => {userinfo}
+
+
+//////////////////////////
+{
+  product(id:4){
+    name,
+    delivery
+  }
+}
+
+npm i apollo-boost graphql graphql-tag react-apollo
