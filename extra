@@ -10,12 +10,9 @@ React-GarphQL 1
 Mock API
 json-server
 Github
-////////////////////
-React-Saga -1
 Basic React Native=1
-----------------------
 Testing
-
+React-Saga -1
 Depolyment
 -> MERN
 -> Docker
@@ -234,3 +231,51 @@ VM130:1 23 43 35 36 12 38
 }
 
 npm i apollo-boost graphql graphql-tag react-apollo
+
+////////global package///////
+npm i -g create-react-native-app
+
+create-react-native-app mymobi
+npm run web
+npm  i -g expo-cli
+
+
+function looping(a){
+  for(i=0;i<a;i++){
+    console.log(i)
+  }
+}
+
+function * looping(a){
+  for(i=0;i<a;i++){
+    yield i
+  }
+}
+
+var data = looping(3)
+undefined
+data.next()
+{value: 0, done: false}
+data.next()
+{value: 1, done: false}
+data.next()
+{value: 2, done: false}
+data.next()
+{value: undefined, done: true}
+
+
+> docker build . -t myapp
+> docker run -p 3000:8086 myapp
+
+
+nginx.conf
+
+server {
+        listen       8081;
+        server_name  localhost;
+
+        location / {
+	          root   /var/www/react-app;
+            index  index.html index.htm;
+        }
+    }

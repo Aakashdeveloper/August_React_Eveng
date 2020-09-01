@@ -9,7 +9,7 @@ describe('Reducer testing',() => {
         }))
     })
 
-    it('Reeturn array on action',() => {
+    it('Return array on action',() => {
         let state={
             articles:[],
             gallery:[]

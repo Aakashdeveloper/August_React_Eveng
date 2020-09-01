@@ -4,7 +4,7 @@ const Footer = () => {
     return(
         <header>
             <div>
-               <p>&copy; DeveloperFunnel</p>
+               <p>&copy; DeveloperFunnels</p>
             </div>
         </header>
     )
